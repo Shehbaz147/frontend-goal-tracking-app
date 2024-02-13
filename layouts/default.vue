@@ -1,8 +1,5 @@
 <template>
-
 <div class="relative flex min-h-[100vh] w-full">
-
-
     <div class="w-full">
         <LayoutsHeader />
 

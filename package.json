@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.11.3",
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.7.1",
     "postcss": "^8.4.31",
@@ -35,7 +35,7 @@
     "lucide-vue-next": "^0.323.0",
     "nuxt-pusher": "^0.0.1",
     "pusher-js": "^8.4.0-rc2",
-    "radix-vue": "^1.4.1",
+    "radix-vue": "^1.4.3",
     "sass": "^1.69.2",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
