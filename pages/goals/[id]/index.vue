@@ -12,7 +12,7 @@ const percentageView = ref(true); // Added a ref to track the view mode
 
 definePageMeta({
   middleware: 'auth',
-  title: `${goal?.value.name}`
+  title: `Edit Goal`
 })
 
 const route = useRoute()
