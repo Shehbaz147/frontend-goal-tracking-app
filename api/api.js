@@ -5,7 +5,7 @@ export const api = async (endpoint, method = 'post', params = {}) => {
         baseURL: config.public.NUXT_PUBLIC_API_BASE,
         headers: {
             "Content-Type": "application/json",
-            "ngrok-skip-browser-warning": "69420",
+            "ngrok-skip-browser-warning": true,
             Authorization: `Bearer ${localStorage.getItem('token')}`
         },
         onRequest({request, options}) {
