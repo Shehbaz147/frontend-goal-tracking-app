@@ -26,3 +26,8 @@ onMounted(() => {
     </div>
   </NuxtLayout>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: auth
+</route>

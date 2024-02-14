@@ -161,3 +161,8 @@ onMounted(() => {
   margin-top: 10px;
 }
 </style>
+
+<route lang="yaml">
+meta:
+  layout: auth
+</route>

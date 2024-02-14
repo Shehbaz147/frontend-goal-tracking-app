@@ -157,3 +157,8 @@ onMounted(() => {
 }
 
 </style>
+
+<route lang="yaml">
+meta:
+  layout: auth
+</route>
