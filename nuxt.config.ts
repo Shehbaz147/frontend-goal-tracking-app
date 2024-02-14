@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "api/**": {
-      proxy: { to: "http://127.0.0.1:3000/api**" },
+      proxy: { to: "https://dcf7-39-61-50-114.ngrok-free.app/api**" },
     },
   },
   shadcn: {
