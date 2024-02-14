@@ -1,4 +1,8 @@
 <script setup lang='ts'>
+definePageMeta({
+  middleware: 'auth',
+  title: 'List of Goals'
+})
 import {columns} from './columns'
 import {ref, onMounted} from 'vue'
 import DataTable from './DataTable.vue'

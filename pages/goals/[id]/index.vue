@@ -10,6 +10,10 @@ const goal = ref({})
 const disabled = ref(false)
 const percentageView = ref(true); // Added a ref to track the view mode
 
+definePageMeta({
+  middleware: 'auth',
+  title: `${goal?.value.name}`
+})
 
 const route = useRoute()
 
@@ -30,7 +34,8 @@ onMounted(() => {
             .catch(error => {
               console.log(error)
             })
-      })
+    })
+
   goalsStore.getGoalDetails(route.params.id)
       .then(res => {
         goalsLoading.value = false
@@ -157,8 +162,3 @@ onMounted(() => {
 }
 
 </style>
-
-<route lang="yaml">
-meta:
-  layout: auth
-</route>

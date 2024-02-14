@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  middleware: 'auth',
+  title: 'List of Goals'
+})
   import GoalsList from './goals/index.vue'
 </script>
 
@@ -9,8 +13,3 @@
 <style scoped>
 
 </style>
-
-<route lang="yaml">
-meta:
-  layout: auth
-</route>
